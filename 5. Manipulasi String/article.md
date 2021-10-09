@@ -156,3 +156,149 @@ print('=' * 10)     # output: ==========
 
 ```
 
+### D. Memformat String dengan String Interpolation  
+
+Fungsi ini memiliki tujua memasukkan atau menyisipkan variabel atau nilai ke dalam template string yang telah ditentukan. Hanya saja, ia memiliki sintaks yang jauh lebih modern dan lebih sederhana.
+
+Hal ini akan terlihat sangat familiar bagi kalian yang pernah belajar javascript mau pun kotlin, karena secara sintaks penulisannya hampir sama dengan string template literal pada dua bahasa tersebut.
+
+Contoh :
+
+```py
+
+nama = 'Nafatul'
+asal = 'Indonesia'
+
+print(f'Perkenalkan saya {nama} dari {asal}')
+
+```
+
+### E. Memecah String Menjadi List
+
+```py
+
+alamat = 'Surabaya, Jawa Timur, Indonesia'
+
+print(alamat.split())
+print(alamat.split(','))
+print(alamat.split(', '))
+print('❤️'.join(['aku', 'suka', 'adistia']))
+print('🦖'.join(alamat.split(', ')))
+
+```
+
+Output :
+
+```
+['Tegal,', 'Jawa', 'Tengah,', 'Indonesia']
+['Tegal', ' Jawa Tengah', ' Indonesia']
+['Tegal', 'Jawa Tengah', 'Indonesia']
+aku❤️suka❤️adistia
+Tegal🦖Jawa Tengah🦖Indonesia
+```
+
+> - Fungsi *string.split()* menerima satu parameter optional. Parameter ini akan dijadikan 
+  sebagai pembatas atau separator yang kemudian string akan dibagi menjadi list berdasarkan pembatas tersebut.
+  - Jika fungsi *string.split()* tidak diberi parameter, maka defaultnya adalah spasi ( ).
+  - Fungsi *string.join()* berfungsi untuk menggabungkan item list menjadi string utuh, dengan string awal sebagai glue atau perekat antar masing-masing item
+
+### F. Mengubah String Menjadi Upper Case  
+Memodifikasi string menjadi uppercase alias huruf besar semua.
+
+```py
+print('halo selamat sore!'.upper())
+print('Halo Selamat Malam!'.upper())
+```
+
+Output :  
+```
+HALO SELAMAT SORE!
+HALO SELAMAT MALAM!
+```
+
+### G. Mengubah String Menjadi Lower Case  
+Memodifikasi string menjadi uppercase alias huruf kecil semua.
+
+```py
+
+print('HALO SELAMAT MALAM!'.lower())
+print('Halo Selamat Pagi!'.lower())
+
+```
+
+Output :  
+```
+halo selamat malam!
+halo selamat pagi!
+```
+### G. Mengubah String Menjadi Title Case  
+Memodifikasi string menjadi seperti teks judul.
+
+```py
+
+print('si kancil yang pintar'.title())
+print('CORETAN SENJA'.title())
+
+```
+Output :
+
+```
+Si Kancil Yang Pintar
+Coretan Senja
+```
+
+### H. Mencari Kata Pada String  
+Pada python, mencari sebuah kata atau karakter dalam suatu string caranya sangat mudah. Kita bisa menggunakan fungsi string.find().
+
+Fungsi tersebut akan mengembalikan indeks dari hasil pertama pencarian, dan akan mengembalikan -1 jika karakter yang dicari tidak ditemukan.
+
+```py
+
+nama = "ANDIKA"
+
+print('Huruf D di index ke :', nama.find('D'))
+print('Huruf K di index ke :', nama.find('K'))
+
+```
+
+Output :
+
+```py
+Huruf D di index ke : 2
+Huruf K di index ke : 4
+```
+
+### I. Mereplace Kata Pada String
+
+Dengan memanfaatkan fungsi **string.replace()**, kita bisa mencari lalu menimpa sebuah karakter/teks dengan teks baru.
+
+```py
+
+nama = 'Dika'
+print(nama.replace('D', 'M'))
+
+```
+
+Output :  
+
+```
+Mika
+```
+
+### J. Menghapus Karakter Tertentu Pada String
+
+Tentu saja, jika kita memanggil fungsi replace() pada suatu string, lalu kita timpa teks lama dengan string kosong (''), seolah-olah kita telah menghapus karakter tersebut.
+
+```py
+
+nama = 'Dika'
+print(nama.replace('k', ''))
+
+```
+
+Output :  
+
+```
+Dik
+```
+
