@@ -199,8 +199,8 @@ Tegal🦖Jawa Tengah🦖Indonesia
 
 > - Fungsi *string.split()* menerima satu parameter optional. Parameter ini akan dijadikan 
   sebagai pembatas atau separator yang kemudian string akan dibagi menjadi list berdasarkan pembatas tersebut.
-  - Jika fungsi *string.split()* tidak diberi parameter, maka defaultnya adalah spasi ( ).
-  - Fungsi *string.join()* berfungsi untuk menggabungkan item list menjadi string utuh, dengan string awal sebagai glue atau perekat antar masing-masing item
+> - Jika fungsi *string.split()* tidak diberi parameter, maka defaultnya adalah spasi ( ).
+> - Fungsi *string.join()* berfungsi untuk menggabungkan item list menjadi string utuh,  dengan string awal sebagai glue atau perekat antar masing-masing item
 
 ### F. Mengubah String Menjadi Upper Case  
 Memodifikasi string menjadi uppercase alias huruf besar semua.
