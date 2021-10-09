@@ -98,6 +98,7 @@ Saya bernama Andika dan Nafatul selalu menjadi penyemangat saya. Kami bertemu pe
 > Coba perhatikan variabel *tahunKetemu*, meskipun isinya adalah sebuah angka,  
   tetap saja di situ dia bertipe data string.
   Kenapa? karena ia diapit oleh tanda petik.
+  
 
 
 #### B. Tipe Data Integer ( int )
@@ -111,6 +112,7 @@ print(type(umur))
 <class 'int'>
 ```
 
+
 #### C. Tipe Data Pecahan ( float )
 Tipe data float dipergunakan untuk variabel-variabel yang memiliki nilai pecahan / desimal.
 
@@ -121,6 +123,7 @@ print(type(nilai_tugas))
 # Output
 <class 'float'>
 ```
+
 
 #### D. Tipe Data Complex ( complex )
 Tipe data complex adalah tipe data yang sangat kompleks. Tipe Data ini merepresentasikan nilai imajiner suatu bilangan.
@@ -133,11 +136,11 @@ print(type(kodeTiket))
 <class 'complex'>
 ```
 
-> Lalu, apa perbedaan antara tipe data angka dan tipe data teks (string)?
+#### Lalu, apa perbedaan antara tipe data angka dan tipe data teks (string)?
 
-Perbedaannya terletak pada fungsi dan cara mengoperasikannya.
-Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya.
-Berbeda jika kita menambahkan dua buah variabel bertipe data string (teks), yang kita dapatkan adalah hasil penggabungan keduanya.
+> Perbedaannya terletak pada fungsi dan cara mengoperasikannya.
+  Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya.  
+  Berbeda jika kita menambahkan dua buah variabel bertipe data string (teks), yang kita dapatkan adalah hasil penggabungan keduanya.
 
 Contoh :
 
@@ -150,4 +153,37 @@ print(8 + 8) # output 16
 print('8' + '8') # output 88
 
 ```
-Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak terjadi pada kesalahan operasi
+Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak terjadi pada kesalahan operasi.  
+
+
+
+#### Tipe Data Boolean ( True / False)
+
+Tipe data boolean adalah tipe data yang paling simpel dan mudah. Akan tetapi dia sangat penting sekali bahkan untuk membangun program/aplikasi skala besar sekalipun.
+*Nilai True* untuk pernyataan bernilai benar, dan *Nilai False* untuk merepresentasikan pernyataan yang bernilai salah.
+
+Contoh :
+
+```py
+
+saya_mahasiswa = True
+saya_dokter = False
+
+print("Apakah saya adalah mahasiswa?", saya_mahasiswa )
+print("Apakah saya adalah dokter?", saya_dokter )
+
+# Cek Tipe Data
+print(type(saya_mahasiswa))
+print(type(saya_dokter))
+
+```
+
+Output :
+
+```
+Apakah saya adalah mahasiswa? True
+Apakah saya adalah dokter? False
+
+<class 'bool'>
+<class 'bool'>
+```
