@@ -28,15 +28,16 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [ ] Perulangan while
 - [ ] Perulangan Bersarang
 - [ ] Function dan Method
-- [ ] Python Module
+- [ ] Module
 - [ ] Error Handling
 - [ ] Pemrograman Berorientasi Objek - Class
 - [ ] Pemrograman Berorientasi Objek - Object
 - [ ] Pemrograman Berorientasi Objek - Method
 - [ ] Pemrograman Berorientasi Objek - Inheritance
 - [ ] Test Unit
-- [ ] Python Library
-- [ ] Build GUI Python Apps with PySide
+- [ ] Penggunaan Library
+- [ ] Membuat Aplikasi GUI Python dengan PySide
+- [x] Project Latihan
 
 
 ### 🗃️ Path Materi 
