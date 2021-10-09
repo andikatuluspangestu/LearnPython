@@ -88,7 +88,7 @@ Output :
 ### C. Penggabungan String
 Penggabungan string adalah teknik untuk menyusun atau mengkombinasikan beberapa string menjadi satu kesatuan. Hal ini juga biasa disebut sebagai string concatenation.
 
-**- Menggunakan operator** ``+``
+**- Menggunakan operator** ``+``  
 
 ```py
 
@@ -105,7 +105,8 @@ Output :
 Andika & Adistia
 ```
 
-**String + Non String**
+**- String + Non String**  
+
 Anda hanya bisa menambahkan string dengan string juga. Jika anda berusaha menambahkan string dengan integer, double, atau boolean dan sebagainya, maka anda akan mendapatkan error.
 
 ```py
@@ -143,7 +144,8 @@ Output :
 Oktober 2021
 ```
 
-**Perkalian String**
+**- Perkalian String**  
+
 Selain melakukan string concatenation menggunakan operator tambah (+), kita juga bisa menggunakan operator kali ('*').  
 Operator perkalian ini akan mengulang-ulang string yang dikalikan.
 
