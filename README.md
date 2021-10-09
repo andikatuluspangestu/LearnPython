@@ -12,6 +12,16 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - PyCharm [Download](https://www.jetbrains.com/pycharm/download/)
 - [Visual Studio Code](https://code.visualstudio.com/download) + [Python Ekstension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Disarankan)
 
+### 📝 Persyaratan Penggunaan
+- Python 3.x.x
+- Python pip 21.2.4
+
+### 👨‍💻 Author
+> Andika Tulus Pangestu  
+  NIM : 12210940  
+  Kelas : 12.1A.35  
+  Prodi : D3 Sistem Informasi  
+
 ### ✔️ Tasks Belajar 
 
 - [x] Mengenal Python
@@ -39,10 +49,8 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [ ] Membuat Aplikasi GUI Python dengan PySide
 - [x] Project Latihan
 
-
 ### 🗃️ Path Materi 
 Path dibuat agar materi menjadi terstruktur sehingga mempermudah pembelajaran.
-
 
 ### 🛠️ Troubleshooting
 Jika mengalami kesulitan atau kurang memahami Dokumentasi atau untuk error coding bisa ditanyakan di [Kotakode](kotakode.com) atau [Stackoverflow](stackoverflow.com)
@@ -56,5 +64,13 @@ Jika mengalami kesulitan atau kurang memahami Dokumentasi atau untuk error codin
 - All Site Reference
 - All Youtube Channel Reference
 
+### ☕ Referensi, Lisensi Sumber Perangkat Lunak terbuka, Kontribusi
+- [Python](https://python.org)
+- [JagoNgoding](https://jagongoding.com/)
+- [Petanikode](https://petanikode.com/)
+- [W3School](https://w3school.com)
+- [Iconfinder](https://www.iconfinder.com/iconsets/education-759)
+- [Repository Universitas Bina Sarana Informatika](https://repository.bsi.ac.id/)
+
 ### 🔐 License 
-Repository Created by Andika Tulus Pangestu under *MIT License*
+Repository Created 9 Oktober 2021 at 11.15 WIB by Andika Tulus Pangestu under *MIT License*
