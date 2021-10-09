@@ -136,27 +136,6 @@ print(type(kodeTiket))
 <class 'complex'>
 ```
 
-#### Lalu, apa perbedaan antara tipe data angka dan tipe data teks (string)?
-
-> Perbedaannya terletak pada fungsi dan cara mengoperasikannya.
-  Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya.  
-  Berbeda jika kita menambahkan dua buah variabel bertipe data string (teks), yang kita dapatkan adalah hasil penggabungan keduanya.
-
-Contoh :
-
-```py
-
-# penjumlahan dua data numerik
-print(8 + 8) # output 16
-
-# penjumlahan dua data string
-print('8' + '8') # output 88
-
-```
-Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak terjadi pada kesalahan operasi.  
-
-
-
 #### E. Tipe Data Boolean ( True / False)
 
 Tipe data boolean adalah tipe data yang paling simpel dan mudah. Akan tetapi dia sangat penting sekali bahkan untuk membangun program/aplikasi skala besar sekalipun.
@@ -187,3 +166,23 @@ Apakah saya adalah dokter? False
 <class 'bool'>
 <class 'bool'>
 ```
+
+
+### Lalu, apa perbedaan antara tipe data angka dan tipe data teks (string)?
+
+> Perbedaannya terletak pada fungsi dan cara mengoperasikannya.
+  Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya.  
+  Berbeda jika kita menambahkan dua buah variabel bertipe data string (teks), yang kita dapatkan adalah hasil penggabungan keduanya.
+
+Contoh :
+
+```py
+
+# penjumlahan dua data numerik
+print(8 + 8) # output 16
+
+# penjumlahan dua data string
+print('8' + '8') # output 88
+
+```
+Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak terjadi pada kesalahan operasi.  
