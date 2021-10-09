@@ -151,8 +151,8 @@ Operator perkalian ini akan mengulang-ulang string yang dikalikan.
 
 ```py
 
-print('=========') # output: =========
-print('=' * 10)    # output: ========
+print('==========') # output: ==========
+print('=' * 10)     # output: ==========
 
 ```
 
