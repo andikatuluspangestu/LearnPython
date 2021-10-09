@@ -27,8 +27,8 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [x] Mengenal Python
 - [x] Sintaks Dasar
 - [x] Variable
-- [ ] Tipe Data Numbers, String, dan Boolean
-- [ ] String Manipulation
+- [x] Tipe Data Numbers, String, dan Boolean
+- [x] String Manipulation
 - [ ] Tipe Data List, Slicing, Tuple, Set, dan Dictionary
 - [ ] Tipe Data Casting
 - [ ] Operator
