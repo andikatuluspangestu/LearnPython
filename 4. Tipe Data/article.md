@@ -98,7 +98,7 @@ Saya bernama Andika dan Nafatul selalu menjadi penyemangat saya. Kami bertemu pe
 > Coba perhatikan variabel *tahunKetemu*, meskipun isinya adalah sebuah angka,  
   tetap saja di situ dia bertipe data string.
   Kenapa? karena ia diapit oleh tanda petik.
-  
+
 
 
 #### B. Tipe Data Integer ( int )
@@ -157,7 +157,7 @@ Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak ter
 
 
 
-#### Tipe Data Boolean ( True / False)
+#### E. Tipe Data Boolean ( True / False)
 
 Tipe data boolean adalah tipe data yang paling simpel dan mudah. Akan tetapi dia sangat penting sekali bahkan untuk membangun program/aplikasi skala besar sekalipun.
 *Nilai True* untuk pernyataan bernilai benar, dan *Nilai False* untuk merepresentasikan pernyataan yang bernilai salah.
