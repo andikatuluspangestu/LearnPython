@@ -31,8 +31,8 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [x] String Manipulation
 - [ ] Tipe Data List, Slicing, Tuple, Set, dan Dictionary
 - [ ] Tipe Data Casting
-- [ ] Operator
-- [ ] Input/Output
+- [x] Operator
+- [x] Input/Output
 - [ ] Percabangan
 - [ ] Perulangan for
 - [ ] Perulangan while
