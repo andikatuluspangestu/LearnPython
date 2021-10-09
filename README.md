@@ -1,4 +1,4 @@
-## 💡 Catatn Materi Bahasa Pemrogramman Python <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" width="25px" height="25px">
+## 💡 Catatan Materi Bahasa Pemrogramman Python <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-256.png" width="25px" height="25px">
 
 ### 📝 Deskripsi 
 Python merupakan bahasa pemrograman yang sangat mudah dipelajari oleh pemula yang pertama kali di perkenalkan oleh Guido Van Rossum pada tahun 1991 dan hingga sekarang dikembangkan oleh Python Software Foundation.
