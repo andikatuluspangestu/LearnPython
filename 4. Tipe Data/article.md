@@ -52,6 +52,8 @@ umur = 17
 
 Terdapat 8 Tipe Data pada Bahasa Pemrograman Python, yaitu sebagai berikut.
 
+| Jenis Tipe Data     | Sintaks atau Simbol           |
+|---------------------|-------------------------------|
 | Tipe Data Teks      | String (str)                  |
 | Tipe Data Numerik   | Integer (int), Float, Complex |
 | Tipe Data Urutan    | List, Tuple, Range            |
@@ -60,7 +62,7 @@ Terdapat 8 Tipe Data pada Bahasa Pemrograman Python, yaitu sebagai berikut.
 | Tipe Data Boolean   | bool                          |
 | Tipe Data Biner     | bytes, bytearray, memoryview  |
 
-#### Tipe Data String ( str )  
+#### A. Tipe Data String ( str )  
 Tipe data yang digunakan untuk menyimpan sebuah teks.  
 Data yang bertipe string harus diapit oleh tanda petik, baik tanda petik satu *('')* mau pun tanda petik dua *("")*.
 
@@ -98,7 +100,7 @@ Saya bernama Andika dan Nafatul selalu menjadi penyemangat saya. Kami bertemu pe
   Kenapa? karena ia diapit oleh tanda petik.
 
 
-#### Tipe Data Integer ( int )
+#### B. Tipe Data Integer ( int )
 Tipe data integer adalah tipe data bilangan bulat. Sehingga setiap variabel yang memiliki nilai bilangan bulat, maka ia akan dikategorikan sebagai integer.
 
 ```py
@@ -109,7 +111,7 @@ print(type(umur))
 <class 'int'>
 ```
 
-### Tipe Data Pecahan ( float )
+#### C. Tipe Data Pecahan ( float )
 Tipe data float dipergunakan untuk variabel-variabel yang memiliki nilai pecahan / desimal.
 
 ```py
@@ -120,7 +122,7 @@ print(type(nilai_tugas))
 <class 'float'>
 ```
 
-### Tipe Data Complex ( complex )
+#### D. Tipe Data Complex ( complex )
 Tipe data complex adalah tipe data yang sangat kompleks. Tipe Data ini merepresentasikan nilai imajiner suatu bilangan.
 
 ```py
@@ -130,3 +132,22 @@ print(type(kodeTiket))
 # Output
 <class 'complex'>
 ```
+
+> Lalu, apa perbedaan antara tipe data angka dan tipe data teks (string)?
+
+Perbedaannya terletak pada fungsi dan cara mengoperasikannya.
+Misalkan kita ingin menambahkan dua buah variabel bertipe data numerik, yang kita dapatkan adalah hasil penjumlahannya.
+Berbeda jika kita menambahkan dua buah variabel bertipe data string (teks), yang kita dapatkan adalah hasil penggabungan keduanya.
+
+Contoh :
+
+```py
+
+# penjumlahan dua data numerik
+print(8 + 8) # output 16
+
+# penjumlahan dua data string
+print('8' + '8') # output 88
+
+```
+Oleh karena itu: pemilihan tipe data yang tepat sangatlah penting agar tidak terjadi pada kesalahan operasi
