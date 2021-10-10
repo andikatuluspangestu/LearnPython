@@ -36,7 +36,7 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [x] Percabangan
 - [x] Perulangan for
 - [x] Perulangan while
-- [ ] Perulangan Bersarang
+- [X] Perulangan Bersarang
 - [ ] Function dan Method
 - [ ] Module
 - [ ] Error Handling
