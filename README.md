@@ -33,7 +33,7 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [ ] Tipe Data Casting
 - [x] Operator
 - [x] Input/Output
-- [ ] Percabangan
+- [x] Percabangan
 - [ ] Perulangan for
 - [ ] Perulangan while
 - [ ] Perulangan Bersarang
