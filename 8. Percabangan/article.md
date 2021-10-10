@@ -38,3 +38,7 @@ Dalam bahasa pemrograman python, sintaks atau statement yang digunakan untuk mel
 
 Di mana ``if merupakan kondisi utama``, sedangkan ``elif adalah kondisi kedua atau ketiga hingga ke-berapapun``  
 sedangkan ``else adalah kondisi terakhir di mana semua kondisi sebelumnya tidak ada yang terpenuhi.``
+
+-------------------------------------------------------------------------------------
+
+Setelah ini kita bisa lanjut ke bagian **Struktur Percabangan If**

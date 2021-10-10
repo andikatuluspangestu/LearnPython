@@ -117,7 +117,7 @@ print("Keputusannya adalah ", keputusan)
 Output :
 
 ```
-Apakah kamu lulus? [ya/tidak]: _tidak_
+Apakah kamu lulus? [ya/tidak]: tidak
 Keputusannya adalah Kamu harus ikut ujian ulang
 ```
 
@@ -159,7 +159,11 @@ print("-" * 25)
 
 ```
 
-Output :
+Output :  
 ![image](https://user-images.githubusercontent.com/62005221/136682040-dd8ccd40-2f0f-4eb0-a750-7f1e0ee84334.png)
+
+-------------------------------------------------------------------------------------
+
+Setelah ini kita bisa lanjut ke bagian **Percabangan If Else**
 
 
