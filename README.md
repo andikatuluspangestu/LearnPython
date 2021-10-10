@@ -29,7 +29,7 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [x] Variable
 - [x] Tipe Data Numbers, String, dan Boolean
 - [x] String Manipulation
-- [ ] Tipe Data List, Slicing, Tuple, Set, dan Dictionary
+- [x] Tipe Data List, Slicing, Tuple, Set, dan Dictionary
 - [ ] Tipe Data Casting
 - [x] Operator
 - [x] Input/Output
