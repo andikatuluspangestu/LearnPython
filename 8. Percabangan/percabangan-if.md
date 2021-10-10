@@ -108,11 +108,19 @@ lulus = input("Apakah kamu lulus? (ya/tidak): ")
 
 # Percabangan if
 if(lulus == "tidak"):
-    keputusan = "Kamu harus ikut ujiann ulang"
+    keputusan = "Kamu harus ikut ujian ulang"
 
 print("Keputusannya adalah ", keputusan)
 
 ```
+
+Output :
+
+```
+Apakah kamu lulus? [ya/tidak]: _tidak_
+Keputusannya adalah Kamu harus ikut ujian ulang
+```
+
 
 
 
