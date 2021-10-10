@@ -12,8 +12,9 @@ if kondisi:
 > Baik **berupa nilai True/False secara langsung, atau pun sebuah ekspresi logika.**
 > Jika kondisi bernilai True, maka statements() akan dieksekusi oleh sistem.
 
+--------------------------------------------------------------------------
 
-**Contoh :**  
+**Contoh Pertama :**  
 _kalau kita tidak lulus dalam ujian, maka kita ikut remidi._  
 _Sedangkan kalau lulus tidak perlu ikut remidi._
 
@@ -52,3 +53,66 @@ if lulus == "tidak":
     print("kamu harus ikut remidi")
 ```
  
+-----------------------------------------------------------------------------------
+**Contoh Kedua :**
+
+```py
+if True:
+  print('Kode program ini akan dieksekusi')
+
+if False:
+  print('Kode program ini tidak akan dieksekusi')
+
+print('Kode program ini akan selalu dieksekusi karena tidak termasuk pada percabangan')
+```
+
+Output :  
+```
+Kode program ini akan dieksekusi
+Kode program ini akan selalu dieksekusi
+```
+Kenapa?
+Karena kondisi ``if`` **yang kedua tidak bernilai** ``True``, sehingga statemen yang ada di dalamnya pun tidak akan pernah dieksekusi oleh sistem.
+Dan ``print()`` yang ke-3 akan selalu dieksekusi karena ia **berada di luar blok kode if.**
+Ingat bahwa blok kode di dalam python ditentukan oleh indentasi.  
+
+![](https://ik.imagekit.io/jagongoding/storage/2021/01/python-percabangan/indentasi.png)
+
+Selain menggunakan boolean secara langsung, kita juga bisa menggunakan ekspresi logika untuk percabangan.
+
+```py3
+
+if 5 > 10: # ❌
+  print('Nilai 5 lebih dari 10')
+
+if 10 > 5: # ✅
+  print('Nilai 10 lebih dari 5')
+
+```
+
+Output :
+```
+Nilai 10 lebih dari 5
+```
+
+-------------------------------------------------------------------------------------
+
+**Contoh Ketiga :**
+
+Kita akan membuat program menentukan apakah seorang siswa ikut ujian ulang atau tidak.  
+
+```py
+
+# Deklarasi Variable
+lulus = input("Apakah kamu lulus? (ya/tidak): ")
+
+# Percabangan if
+if(lulus == "tidak"):
+    keputusan = "Kamu harus ikut ujiann ulang"
+
+print("Keputusannya adalah ", keputusan)
+
+```
+
+
+
