@@ -34,8 +34,8 @@ Repository ini hanyalah catatan saya selama belajar Python Programming.
 - [x] Operator
 - [x] Input/Output
 - [x] Percabangan
-- [ ] Perulangan for
-- [ ] Perulangan while
+- [x] Perulangan for
+- [x] Perulangan while
 - [ ] Perulangan Bersarang
 - [ ] Function dan Method
 - [ ] Module
