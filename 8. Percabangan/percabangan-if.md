@@ -159,4 +159,7 @@ print("-" * 25)
 
 ```
 
+Output :
+![image](https://user-images.githubusercontent.com/62005221/136682040-dd8ccd40-2f0f-4eb0-a750-7f1e0ee84334.png)
+
 
