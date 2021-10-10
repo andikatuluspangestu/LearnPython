@@ -1,7 +1,6 @@
 # Python Dasar - Struktur Percabangan If
 
 Percabangan If digunakan saat terdapat satu pilihan keputusan.  
-
 Blok kode if pada python, strukturnya seperti ini:
 
 ```py3
@@ -13,7 +12,8 @@ if kondisi:
 > Baik **berupa nilai True/False secara langsung, atau pun sebuah ekspresi logika.**
 > Jika kondisi bernilai True, maka statements() akan dieksekusi oleh sistem.
 
-**Misalkan :**  
+
+**Contoh :**  
 _kalau kita tidak lulus dalam ujian, maka kita ikut remidi._  
 _Sedangkan kalau lulus tidak perlu ikut remidi._
 
