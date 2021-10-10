@@ -1,8 +1,13 @@
-jawaban = input("Kamu mau maafin aku? ")
+nilai = 78
+usia = 18
 
-if jawaban == "ya" or jawaban == "y":
-    print( "Yeyyy, baikan yaa hihi :)" )
-elif jawaban == "gamau" or jawaban == "g":
-    print( "Yahhh,, kok gitu :(" )
+if nilai >= 75:
+  if (usia < 15):
+    print('Selamat adek, kamu lulus!')
+  else:
+    print('Selamat kakak, kamu lulus!')
 else:
-    print( "ishh, ga direwess auuu.. " )
+  if (usia < 15):
+    print('Mohon maaf dek, coba lagi ya!')
+  else:
+    print('Mohon maaf kak, coba lagi ya!')
