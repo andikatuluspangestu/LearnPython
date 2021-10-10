@@ -1,4 +1,4 @@
-# Python Dasar - Struktur Percabangan If
+# Struktur Percabangan If
 
 Percabangan If digunakan saat terdapat satu pilihan keputusan.  
 Blok kode if pada python, strukturnya seperti ini:
