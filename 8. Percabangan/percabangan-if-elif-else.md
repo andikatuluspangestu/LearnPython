@@ -5,7 +5,8 @@ Begitu juga pada logika kita. Kita bisa membuat lebih dari 2 cabang logika. Dan 
 
 ---------------------------------------------------------------------------------------
 
-**Contoh Pertama :**
+**Contoh Pertama :**  
+
 Contoh yang paling umum digunakan untuk kasus percabangan ``if..elif..else`` adalah menentukan predikat nilai suatu siswa.
 
 Jika nilainya sekian, dia dapat predikat A. Sedangkan jika nilainya sekian maka predikatnya adalah B, dan seterusnya.
@@ -70,6 +71,8 @@ Output :
 Buah yang anda cari tersedia!
 ```
 
+---------------------------------------------------------------------------------------
+
 **Contoh Ketiga :**  
 
 Membuat Aplikasi Minta Maaf ke Doi :)
@@ -90,7 +93,7 @@ Output :
 
 ```
 
-ya
+Kamu mau maafin aku? ya
 Yeyyy, baikan yaa hihi :)
 
 ```
