@@ -1,88 +1,45 @@
-# Aplikasi Penjualan Tiket
+namaPembeli = str(input("nama pembeli:    "))
+nomorHP     = int(input("nomor handphone: "))
 
-# Format Rupiah
-def formatrupiah(uang):
-    y = str(uang)
-    if len(y) <= 3:
-        return 'Rp ' + y
-    else:
-        p = y[-3:]
-        q = y[:-3]
-        return formatrupiah(q) + '.' + p
-    print("Rp", formatrupiah(q), ".", p)
+print(" -SBY : Surabaya ")
+print(" -BL  : Bali     ")
+print(" -LMP : Lampung  ")
 
-# Deklarasi Variable Data Pembeli
-print("===================================")
-print("     Input Data Penumpang Bus      ")
-print("===================================")
-namaPembeli = str(input("Nama Penumpang : ")) 
-noTelepon   = int(input("No Telepon     : "))
+kodeJurusan = str(input("Kode Jurusan:  "))
+jumlahTiket = int(input("Jumlah Tiket:  "))
 
-# Deklarasi Variable Data Tiket
-print("===================================")
-print("         Daftar Jurusan Bus        ")
-print("===================================")
-print("- SBY : Surabaya")
-print("- BL  : Bali")
-print("- LMP : Lampung")
-print("-----------------------------------")
-kodeJurusan = str(input("Masukan Kode Jurusan : "))
-jumlahTiket = int(input("Masukan Jumlah Tiket : "))
-print("===================================")
-
-
-# Percabangan Harga Tiket
-if(kodeJurusan == "SBY" or kodeJurusan == "sby"):
-    harga_Tiket      = 300000
-    kota_Jurusan     = "Surabaya"
-    total_HargaTiket = jumlahTiket * harga_Tiket
-
+if(kodeJurusan == "SBY" or kodeJurusan == "sby"):   
+    harga_tiket     = "300000"
+    kota_jurusan    = "Surabaya"
+    total_harga     = harga_tiket * jumlahTiket
 elif(kodeJurusan == "BL" or kodeJurusan == "bl"):
-    harga_Tiket      = 350000
-    kota_Jurusan     = "Bali"
-    total_HargaTiket = jumlahTiket * harga_Tiket
-
+    harga_tiket     = "350000"
+    kota_jurusan    = "Bali"
+    total_harga     = harga_tiket * jumlahTiket
 elif(kodeJurusan == "LMP" or kodeJurusan == "lmp"):
-    harga_Tiket      = 500000
-    kota_Jurusan     = "Lampung"
-    total_HargaTiket = jumlahTiket * harga_Tiket
-
+    harga_tiket     = "500000"
+    kota_jurusan    = "Lampung"
+    total_harga     = harga_tiket * jumlahTiket
 else:
-    total_HargaTiket = 0
-    print("Jurusan yang anda masukan tidak tersedia")
+    total_harga = 0
 
-# Menghitung Diskon Tiket 10%
-if( jumlahTiket >= 3):
-    diskon = 0.1 * total_HargaTiket
+
+if(jumlahTiket >= 3):
+    diskon = 0.1 * total_harga
 else:
     diskon = 0
 
-# Deklarasi Variable Total Harga Tiket_ yang harus dibayar
-total_bayar = total_HargaTiket - diskon
+total_bayar = total_harga - diskon
 
-# Loading Cetak Tiket
-print("")
-print("Sedang Mencetak Tiket..")
-print("Sedang Mencetak Tiket...")
-print("Sedang Mencetak Tiket.....")
+print("Nama Pembeli : " , namaPembeli)
+print("Nomor Handphone : " , nomorHP)
+print("Kode jurusan yang dipilih : " , kodeJurusan)
+print("Nama kota tujuan :" , kota_jurusan)
+print("Harga : " , total_bayar)
+print("Jumlah Beli :" , jumlahTiket)
+print("potongan yang didapat : ", diskon)
+print("Total Bayar : " , total_harga)
+uang_bayar = int(input("masukan uang bayar: " ))
+uang_kembali = uang_bayar - total_bayar
 
-# Cetak Data Tiket
-print("")
-print("---------------------------------------------------")
-print("                Penjualan Tiket Bus                ")
-print("                        XYZ                        ")
-print("---------------------------------------------------")
-print("Nama Pembeli         : ", namaPembeli)
-print("No. Handphone        : ", noTelepon)
-print("Kode Jurusan         : ", kodeJurusan)
-print("Nama Kota Tujuan     : ", kota_Jurusan)
-print("Harga per-Tiket      : ", formatrupiah(harga_Tiket))
-print("Jumlah Pembelian     : ", jumlahTiket)
-print("---------------------------------------------------")
-print("Potongan Harga       : ", formatrupiah(str(diskon).rstrip('0').rstrip('.')))
-print("Total Pembayaran     : ", formatrupiah(str(total_bayar).rstrip('0').rstrip('.')))
-uangBayar   = int(input("Masukkan Uang Bayar  :  Rp ")) 
-uangKembali = uangBayar - total_bayar
-print("Uang Kembali         : ", formatrupiah(str(uangKembali).rstrip('0').rstrip('.')))
-print("---------------------------------------------------")
-print("")
+print("uang kembali: " , uang_kembali)
