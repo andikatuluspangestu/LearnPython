@@ -302,7 +302,7 @@ Output :
 Dik
 ```
 
-### Memformat String dengan Format Specifiers  
+### K. Memformat String dengan Format Specifiers  
 
 Format specifiers adalah simbol ``%s`` yang berarti string.  
 
