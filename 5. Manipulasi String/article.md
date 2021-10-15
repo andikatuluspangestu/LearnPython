@@ -302,3 +302,19 @@ Output :
 Dik
 ```
 
+### Memformat String dengan Format Specifiers  
+
+Format specifiers adalah simbol ``%s`` yang berarti string.  
+
+Contoh :  
+```py
+
+template = 'Halo, saya %s dari %s'
+
+print(template % ('Nafatul', 'Indonesia'))
+# output: Halo, saya Nafatul dari Indonesia
+
+```
+
+Model cara seperti ini akan terlihat sangat “old-style” jika kita bandingkan dengan fungsi ``string.format()`` pada python 3.
+
