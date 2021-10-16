@@ -1,4 +1,4 @@
-# Program Chicken
+# Program Chicken - 12210940 Andika Tulus Pangestu
 
 # Format Rupiah
 def formatrupiah(uang):
@@ -12,9 +12,9 @@ def formatrupiah(uang):
     print("Rp", formatrupiah(q), ".", p)
 
 # Judul Aplikasi
-print("=" * 32)
-print(" " * 9, "Chicken Duck", " " * 8)
-print("=" * 32)
+print("=" * 52)
+print(" " * 14, "Chicken Setulus Hati", " " * 20)
+print("=" * 52)
 print("Kode  Jenis    Harga")
 print("-" * 23)
 print("D     Dada     Rp 2500")
@@ -47,15 +47,15 @@ while i < banyakJenis:
     # Percabangan Penentuan Jenis, Harga, JumlahHarga
     # Jika kodePotong bernilai seperti Variable i dan sama dengan kodePotong tersedia maka..
 
-    if(kodePotong[i] == "D" or kodePotong == "d"):
+    if(kodePotong[i] == "D" or kodePotong[i] == "d"):
         jenisPotong.append("Dada ")                      # Add jenisPotong ke list jenisPotong
-        hargaPerPotong.append(2500)                   # Add hargaPerPotong ke list hargaPerPotong
-        JumlahHarga.append(banyakPotong[i] * int(2500)) # Add JumlahHarga ke list JumlahHarga
-    elif(kodePotong[i] == "P" or kodePotong == "p"):
+        hargaPerPotong.append(2500)                      # Add hargaPerPotong ke list hargaPerPotong
+        JumlahHarga.append(banyakPotong[i] * int(2500))  # Add JumlahHarga ke list JumlahHarga
+    elif(kodePotong[i] == "P" or kodePotong[i] == "p"):
         jenisPotong.append("Paha ")
         hargaPerPotong.append(2000)
         JumlahHarga.append(banyakPotong[i] * int(2000))
-    elif(kodePotong[i] == "S" or kodePotong == "s"):
+    elif(kodePotong[i] == "S" or kodePotong[i] == "s"):
         jenisPotong.append("Sayap")
         hargaPerPotong.append(1500)
         JumlahHarga.append(banyakPotong[i] * int(1500))
@@ -73,15 +73,21 @@ print("")
 print("Sedang Mencetak Struk .....")
 print("")
 
-# Struk
+# Bagian Struk Pembelian
+
+# Header Struk
 print("=" * 52)
-print(" " * 18, "Chicken Duck", " " * 20)
+print(" " * 14, "Chicken Setulus Hati", " " * 20)
 print("=" * 52)
+
+# Template Tabel List
 print(" No    Jenis      Harga        Jumlah    Jumlah")
 print("       Potong     PerPotong    Beli      Harga ")
 print("-" * 52)
 template = ' {c}     {jenis_potong}      {harga}          {banyak_potong}        {jumlah}'
 
+
+# Perulangan Daftar Jenis Chicken yang dipesan
 a = 0
 while a < banyakJenis:
     c = a + 1
@@ -89,11 +95,12 @@ while a < banyakJenis:
     a = a + 1
 
 print("=" * 52)
-totalPembelian = sum(JumlahHarga)
+totalPembelian = sum(JumlahHarga) # Jumlah Total Harga Chicken yang di Beli
 print("Total Pembelian : ", formatrupiah(totalPembelian))
 jumlahBayar = int(input("Jumlah Bayar    :  Rp "))
-jumlahPajak = jumlahBayar * 0.1
+jumlahPajak = jumlahBayar * 0.1 # Menghitung Pajak
 totalBayar  = jumlahBayar + jumlahPajak
 print("Pajak 10%       : ", formatrupiah(str(jumlahPajak).rstrip('0').rstrip('.')))
 print("Total Bayar     : ", formatrupiah(str(totalBayar).rstrip('0').rstrip('.')))
 print("=" * 52)
+
